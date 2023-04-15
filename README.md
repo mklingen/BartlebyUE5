@@ -38,6 +38,9 @@ This integrates ChatGPT with Unreal Engine 5 in the simplest way possible. It's 
 3. You should be prompted with something to say.
 4. When you click "say", the AI should respond to you.
 
+## This is magic. How?
+Simple [prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering). The trick is to make ChatGPT think that it's writing a python script to control a character. By writing python-like documentation, you can trick the AI into roleplaying as any kind of character (though its responses do always have a ChatGPT tone to them). It can even make decisions about where to go. Pretty cool!
+
 ## Known Limitations
 * This can get expensive. It's cost me less than $10 so far, but obviously the more you use it the more expensive it is.
 * Error handling from the JSON parsing can be spotty. No explicit attempt is made to limit the number of tokens to an exact amount. Once that happens the AI may get confused.
